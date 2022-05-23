@@ -1,0 +1,2084 @@
+mixed-port: 7890
+allow-lan: true
+ipv6: false
+mode: Rule
+log-level: silent
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+proxies:
+  - {name: CAN 🇨🇦 Beauharnois 2| @BN_CHANLL, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CAN 🇨🇦 Beauharnois| @BN_CHANLL, server: 51.161.118.38, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Frankfurt| @BN_CHANLL, server: 135.125.150.55, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: GER 🇩🇪 Hesse 2| @BN_CHANLL, server: 141.95.0.23, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GER 🇩🇪 Nuremberg| @BN_CHANLL, server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk}
+  - {name: HKG 🇭🇰 Central 3| @BN_CHANLL, server: 118.107.244.109, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: HKG 🇭🇰 Central 4| @BN_CHANLL, server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: HKG 🇭🇰 Central 5| @BN_CHANLL, server: 118.107.244.113, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ITA 🇮🇹 Rome| @BN_CHANLL, server: 84.33.193.79, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
+  - {name: JPN 🇯🇵 Tokyo 2| @BN_CHANLL, server: 89.31.125.216, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: KOR 🇰🇷 Seoul 2| @BN_CHANLL, server: 158.247.203.40, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: SNG 🇸🇬 Singapore| @BN_CHANLL, server: 84.17.38.144, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: USA 🇺🇸 Georgia 2| @BN_CHANLL, server: 167.88.63.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: USA 🇺🇸 New Jersey 2| @BN_CHANLL, server: 92.38.169.196, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: USA 🇺🇸 New York 10| @BN_CHANLL, server: 142.202.48.77, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: USA 🇺🇸 New York 13| @BN_CHANLL, server: 142.202.48.45, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: USA 🇺🇸 New York 14| @BN_CHANLL, server: 142.202.48.45, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: USA 🇺🇸 New York 17| @BN_CHANLL, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: USA 🇺🇸 New York 18| @BN_CHANLL, server: 142.202.48.45, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: USA 🇺🇸 New York 26| @BN_CHANLL, server: 142.202.48.74, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: USA 🇺🇸 New York 28| @BN_CHANLL, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: USA 🇺🇸 New York 35| @BN_CHANLL, server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: USA 🇺🇸 New York 40| @BN_CHANLL, server: 142.202.48.83, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: USA 🇺🇸 New York 42| @BN_CHANLL, server: 142.202.48.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: USA 🇺🇸 New York 7| @BN_CHANLL, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: USA 🇺🇸 New York 8| @BN_CHANLL, server: 142.202.48.45, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: USA 🇺🇸 New York 9| @BN_CHANLL, server: 142.202.48.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: USA 🇺🇸 Texas 2| @BN_CHANLL, server: 167.88.62.24, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: USA 🇺🇸 Texas 4| @BN_CHANLL, server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: USA 🇺🇸 Texas 5| @BN_CHANLL, server: 167.88.62.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: USA 🇺🇸 Texas 6| @BN_CHANLL, server: 167.88.62.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: United Arab Emirates/@BN_CHANLL, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United Arab Emirates/@BN_CHANLL 2, server: 109.169.72.249, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United Arab Emirates/@BN_CHANLL 3, server: 109.169.72.249, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Belgium/@BN_CHANLL, server: 193.9.114.34, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Canada/@BN_CHANLL, server: 134.195.196.24, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 2, server: 134.195.196.132, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 3, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 4, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 5, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 6, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 7, server: 134.195.196.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 8, server: 134.195.196.132, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 9, server: 134.195.196.36, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 10, server: 134.195.196.230, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada/@BN_CHANLL 11, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 12, server: 134.195.196.132, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 13, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 14, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 15, server: 134.195.196.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 16, server: 134.195.196.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 17, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 18, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 19, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 20, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 21, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Canada/@BN_CHANLL 22, server: 134.195.196.214, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 23, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 24, server: 134.195.196.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 25, server: 134.195.196.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada/@BN_CHANLL 26, server: 134.195.196.36, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 27, server: 134.195.196.110, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada/@BN_CHANLL 28, server: 134.195.196.217, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 29, server: 134.195.196.132, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada/@BN_CHANLL 30, server: 134.195.196.139, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 31, server: 134.195.196.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 32, server: 134.195.196.219, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 33, server: 134.195.196.56, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 34, server: 134.195.196.184, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 35, server: 134.195.196.41, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 36, server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 37, server: 134.195.196.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 38, server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 39, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 40, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 41, server: 134.195.196.179, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 42, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 43, server: 134.195.196.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 44, server: 134.195.196.170, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 45, server: 134.195.196.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 46, server: 134.195.196.170, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Canada/@BN_CHANLL 47, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 48, server: 134.195.196.219, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 49, server: 134.195.196.214, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 50, server: 134.195.196.230, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 51, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 52, server: 134.195.196.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 53, server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 54, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 55, server: 134.195.196.214, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada/@BN_CHANLL 56, server: 134.195.196.41, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 57, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 58, server: 134.195.196.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 59, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 60, server: 134.195.196.219, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 61, server: 134.195.196.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 62, server: 134.195.196.193, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada/@BN_CHANLL 63, server: 134.195.196.68, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 64, server: 134.195.196.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada/@BN_CHANLL 65, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 66, server: 134.195.196.179, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 67, server: 134.195.196.179, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 68, server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Canada/@BN_CHANLL 69, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 70, server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 71, server: 134.195.196.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 72, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 73, server: 134.195.196.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 74, server: 134.195.196.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 75, server: 134.195.196.51, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 76, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 77, server: 198.57.27.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 78, server: 134.195.196.230, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 79, server: 134.195.196.217, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 80, server: 134.195.196.219, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 81, server: 134.195.196.217, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 82, server: 134.195.196.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 83, server: 134.195.196.217, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 84, server: 134.195.196.139, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 85, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 86, server: 134.195.196.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 87, server: 134.195.196.214, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 88, server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada/@BN_CHANLL 89, server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 90, server: 134.195.196.132, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 91, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada/@BN_CHANLL 92, server: 134.195.196.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 93, server: 134.195.196.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 94, server: 134.195.196.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 95, server: 198.57.27.229, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 96, server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada/@BN_CHANLL 97, server: 198.57.27.151, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 98, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 99, server: 134.195.196.139, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada/@BN_CHANLL 100, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada/@BN_CHANLL 101, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 102, server: 198.57.27.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 103, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 104, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 105, server: 198.57.27.229, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 106, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 107, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 108, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada/@BN_CHANLL 109, server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 110, server: 198.57.27.243, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada/@BN_CHANLL 111, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada| @BN_CHANLL 2, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 3, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 4, server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 5, server: 134.195.196.70, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada| @BN_CHANLL 6, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 7, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada| @BN_CHANLL 8, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada| @BN_CHANLL 9, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 10, server: 134.195.196.97, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada| @BN_CHANLL 11, server: 134.195.196.169, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 12, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 13, server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada| @BN_CHANLL 14, server: 134.195.196.101, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 15, server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 16, server: 134.195.196.217, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 17, server: 134.195.196.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada| @BN_CHANLL 18, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 19, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 20, server: 134.195.196.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Canada| @BN_CHANLL 21, server: 134.195.196.169, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 22, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 23, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 24, server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada| @BN_CHANLL 25, server: 134.195.196.217, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 26, server: 134.195.196.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada| @BN_CHANLL 27, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 28, server: 134.195.196.133, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 29, server: 134.195.196.217, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 30, server: 134.195.196.169, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 31, server: 134.195.196.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 32, server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 33, server: 134.195.196.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada| @BN_CHANLL 34, server: 134.195.196.169, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Canada| @BN_CHANLL 35, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 36, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 37, server: 134.195.196.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada| @BN_CHANLL 38, server: 134.195.196.12, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 39, server: 134.195.196.214, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 40, server: 134.195.196.70, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada| @BN_CHANLL 41, server: 134.195.196.12, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 42, server: 134.195.196.169, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 43, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 44, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 45, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada| @BN_CHANLL 46, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada| @BN_CHANLL 47, server: 134.195.196.76, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada| @BN_CHANLL 48, server: 134.195.196.70, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada| @BN_CHANLL 49, server: 134.195.196.76, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 50, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 51, server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 52, server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada| @BN_CHANLL 53, server: 134.195.196.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 54, server: 134.195.196.12, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 55, server: 134.195.196.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 56, server: 134.195.196.118, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada| @BN_CHANLL 57, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada| @BN_CHANLL 58, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 59, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada| @BN_CHANLL 60, server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 61, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 62, server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 63, server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 64, server: 134.195.196.97, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada| @BN_CHANLL 65, server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 66, server: 134.195.196.76, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada| @BN_CHANLL 67, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 68, server: 134.195.196.199, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 69, server: 134.195.196.70, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 70, server: 134.195.196.118, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada| @BN_CHANLL 71, server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 72, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 73, server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 74, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada| @BN_CHANLL 75, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 76, server: 134.195.196.169, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada| @BN_CHANLL 77, server: 134.195.196.107, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada| @BN_CHANLL 78, server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 79, server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 80, server: 134.195.196.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 81, server: 134.195.196.217, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 82, server: 134.195.196.118, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Canada| @BN_CHANLL 83, server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 84, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 85, server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 86, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada| @BN_CHANLL 87, server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 88, server: 134.195.196.154, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 89, server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 90, server: 134.195.196.33, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 91, server: 134.195.196.217, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 92, server: 134.195.196.33, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada| @BN_CHANLL 93, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 94, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada| @BN_CHANLL 95, server: 134.195.196.193, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 96, server: 134.195.196.76, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 97, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 98, server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada| @BN_CHANLL 99, server: 134.195.196.76, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada| @BN_CHANLL 100, server: 134.195.196.6, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada| @BN_CHANLL 101, server: 134.195.196.6, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada| @BN_CHANLL 102, server: 134.195.196.71, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada| @BN_CHANLL 103, server: 134.195.196.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada| @BN_CHANLL 104, server: 134.195.196.107, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada| @BN_CHANLL 105, server: 134.195.196.97, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada| @BN_CHANLL 106, server: 134.195.196.133, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 107, server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Canada| @BN_CHANLL 108, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Canada/@BN_CHANLL 112, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 113, server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 114, server: 134.195.196.41, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 115, server: 134.195.196.97, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 116, server: 134.195.196.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Canada/@BN_CHANLL 117, server: 134.195.196.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 118, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 119, server: 134.195.196.16, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 120, server: 134.195.196.230, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 121, server: 134.195.196.132, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Canada/@BN_CHANLL 122, server: 134.195.196.70, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 123, server: 134.195.196.68, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Canada/@BN_CHANLL 124, server: 134.195.196.51, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 125, server: 134.195.196.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Canada/@BN_CHANLL 126, server: 134.195.196.36, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Canada/@BN_CHANLL 127, server: 134.195.196.184, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 128, server: 134.195.196.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Canada/@BN_CHANLL 129, server: 134.195.196.170, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 130, server: 134.195.196.76, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 131, server: 134.195.196.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Canada/@BN_CHANLL 132, server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 133, server: 134.195.196.179, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Canada/@BN_CHANLL 134, server: 134.195.196.101, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 135, server: 134.195.196.118, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 136, server: 134.195.196.44, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 137, server: 134.195.196.24, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 138, server: 134.195.196.56, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Canada/@BN_CHANLL 139, server: 134.195.196.139, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 140, server: 134.195.196.193, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 141, server: 134.195.196.169, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Canada/@BN_CHANLL 142, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 143, server: 134.195.196.219, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Canada/@BN_CHANLL 144, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Czechia/@BN_CHANLL, server: 185.53.46.64, port: 5050, type: ss, cipher: aes-256-gcm, password: xw0DnIYOdfREo4EpA0}
+  - {name: Germany/@BN_CHANLL, server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Germany/@BN_CHANLL 2, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Germany/@BN_CHANLL 3, server: 141.95.0.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Germany/@BN_CHANLL 4, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Germany/@BN_CHANLL 5, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Germany| @BN_CHANLL, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: Germany| @BN_CHANLL 2, server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: France/@BN_CHANLL, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
+  - {name: France/@BN_CHANLL 2, server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu}
+  - {name: United Kingdom/@BN_CHANLL, server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China/@BN_CHANLL, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Hong Kong SAR China/@BN_CHANLL 2, server: 118.107.244.109, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Hong Kong SAR China/@BN_CHANLL 3, server: 118.107.244.111, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Hong Kong SAR China/@BN_CHANLL 4, server: 118.107.244.113, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Hong Kong SAR China/@BN_CHANLL 5, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Hong Kong SAR China/@BN_CHANLL 6, server: 118.107.244.111, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Hong Kong SAR China/@BN_CHANLL 7, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Hong Kong SAR China/@BN_CHANLL 8, server: 118.107.244.109, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Hong Kong SAR China/@BN_CHANLL 9, server: 118.107.244.111, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Hong Kong SAR China/@BN_CHANLL 10, server: 62.216.92.167, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China/@BN_CHANLL 11, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Hong Kong SAR China| @BN_CHANLL, server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: Hong Kong SAR China| @BN_CHANLL 2, server: 62.216.92.167, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 3, server: 62.216.92.167, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 4, server: 62.216.92.167, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 5, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Hong Kong SAR China| @BN_CHANLL 6, server: 118.107.244.111, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Hong Kong SAR China| @BN_CHANLL 7, server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 8, server: 62.216.92.167, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 9, server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 10, server: 62.216.92.167, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Hong Kong SAR China| @BN_CHANLL 11, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Hong Kong SAR China| @BN_CHANLL 12, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: India/@BN_CHANLL, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: India/@BN_CHANLL 2, server: 172.105.176.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: India/@BN_CHANLL 3, server: 172.105.162.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: India/@BN_CHANLL 4, server: 172.105.184.113, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: India/@BN_CHANLL 5, server: 172.105.38.177, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: India/@BN_CHANLL 6, server: 192.46.209.17, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: India/@BN_CHANLL 7, server: 172.105.34.179, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: India/@BN_CHANLL 8, server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: India/@BN_CHANLL 9, server: 192.46.209.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Italy/@BN_CHANLL, server: 95.141.37.111, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Italy/@BN_CHANLL 2, server: 95.141.37.111, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Italy/@BN_CHANLL 3, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Japan/@BN_CHANLL, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Japan/@BN_CHANLL 2, server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Japan/@BN_CHANLL 3, server: 185.160.24.217, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Japan| @BN_CHANLL, server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Japan| @BN_CHANLL 2, server: 5.181.5.136, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Japan| @BN_CHANLL 3, server: 5.181.5.136, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Japan| @BN_CHANLL 4, server: 5.181.5.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: North Korea/@BN_CHANLL, server: 158.247.223.116, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 2, server: 158.247.213.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 3, server: 158.247.213.165, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: North Korea/@BN_CHANLL 4, server: 158.247.224.123, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: North Korea/@BN_CHANLL 5, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: North Korea/@BN_CHANLL 6, server: 158.247.224.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 7, server: 141.164.35.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: North Korea/@BN_CHANLL 8, server: 158.247.223.116, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 9, server: 158.247.224.123, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: North Korea/@BN_CHANLL 10, server: 158.247.224.123, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: North Korea/@BN_CHANLL 11, server: 158.247.200.56, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: North Korea/@BN_CHANLL 12, server: 141.164.52.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: North Korea/@BN_CHANLL 13, server: 158.247.200.56, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 14, server: 158.247.227.123, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: North Korea/@BN_CHANLL 15, server: 141.164.56.110, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: North Korea/@BN_CHANLL 16, server: 141.164.53.152, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: North Korea/@BN_CHANLL 17, server: 158.247.223.116, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 18, server: 158.247.227.123, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 19, server: 141.164.56.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: North Korea/@BN_CHANLL 20, server: 141.164.47.208, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: North Korea/@BN_CHANLL 21, server: 141.164.47.208, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: North Korea/@BN_CHANLL 22, server: 158.247.203.40, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: North Korea/@BN_CHANLL 23, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: North Korea/@BN_CHANLL 24, server: 141.164.53.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: North Korea/@BN_CHANLL 25, server: 158.247.223.116, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: North Korea/@BN_CHANLL 26, server: 141.164.47.208, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: North Korea/@BN_CHANLL 27, server: 158.247.215.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 28, server: 141.164.56.110, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 29, server: 141.164.49.240, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 30, server: 158.247.223.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: North Korea/@BN_CHANLL 31, server: 158.247.213.165, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: North Korea/@BN_CHANLL 32, server: 141.164.52.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 33, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: North Korea/@BN_CHANLL 34, server: 158.247.223.116, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: North Korea/@BN_CHANLL 35, server: 158.247.213.165, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: North Korea/@BN_CHANLL 36, server: 158.247.227.123, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: North Korea/@BN_CHANLL 37, server: 141.164.46.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: North Korea/@BN_CHANLL 38, server: 141.164.47.208, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: North Korea/@BN_CHANLL 39, server: 141.164.53.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: North Korea/@BN_CHANLL 40, server: 158.247.224.123, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: North Korea/@BN_CHANLL 41, server: 158.247.215.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 42, server: 141.164.35.41, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: North Korea/@BN_CHANLL 43, server: 141.164.35.41, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: North Korea/@BN_CHANLL 44, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: North Korea/@BN_CHANLL 45, server: 141.164.47.208, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: North Korea/@BN_CHANLL 46, server: 141.164.35.41, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: North Korea/@BN_CHANLL 47, server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: North Korea/@BN_CHANLL 48, server: 141.164.49.240, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: North Korea/@BN_CHANLL 49, server: 141.164.38.135, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: North Korea/@BN_CHANLL 50, server: 141.164.38.135, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: North Korea/@BN_CHANLL 51, server: 158.247.224.123, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: North Korea/@BN_CHANLL 52, server: 141.164.47.208, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 53, server: 158.247.227.123, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: North Korea/@BN_CHANLL 54, server: 141.164.49.240, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: North Korea/@BN_CHANLL 55, server: 141.164.46.233, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: South Korea| @BN_CHANLL, server: 158.247.206.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: South Korea| @BN_CHANLL 2, server: 158.247.206.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: South Korea| @BN_CHANLL 3, server: 158.247.206.19, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: South Korea| @BN_CHANLL 4, server: 158.247.206.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: South Korea| @BN_CHANLL 5, server: 158.247.206.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: South Korea| @BN_CHANLL 6, server: 158.247.206.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: Luxembourg/@BN_CHANLL, server: 46.226.111.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vPwCvtbOUMkb}
+  - {name: Moldova/@BN_CHANLL, server: 45.142.214.218, port: 3030, type: ss, cipher: aes-256-gcm, password: AtOlnvJyWZbJwPiL}
+  - {name: Netherlands/@BN_CHANLL, server: 37.218.245.122, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fPn40BnheGrB}
+  - {name: Norway/@BN_CHANLL, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Norway/@BN_CHANLL 2, server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 3, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway/@BN_CHANLL 4, server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Norway/@BN_CHANLL 5, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 6, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway/@BN_CHANLL 7, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Norway/@BN_CHANLL 8, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Norway/@BN_CHANLL 9, server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Norway/@BN_CHANLL 10, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Norway/@BN_CHANLL 11, server: 46.29.218.170, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Norway/@BN_CHANLL 12, server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Norway/@BN_CHANLL 13, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Norway/@BN_CHANLL 14, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 15, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: Norway/@BN_CHANLL 16, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 17, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Norway/@BN_CHANLL 18, server: 46.29.218.170, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 19, server: 91.189.183.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Norway/@BN_CHANLL 20, server: 46.29.218.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway/@BN_CHANLL 21, server: 91.189.183.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Norway/@BN_CHANLL 22, server: 91.189.183.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Norway/@BN_CHANLL 23, server: 91.189.183.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Norway/@BN_CHANLL 24, server: 46.29.218.146, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 25, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: Norway/@BN_CHANLL 26, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Norway/@BN_CHANLL 27, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Norway| @BN_CHANLL, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Norway| @BN_CHANLL 2, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway| @BN_CHANLL 3, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: Norway| @BN_CHANLL 4, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: Norway/@BN_CHANLL 28, server: 46.29.218.170, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 29, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway/@BN_CHANLL 30, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: Norway/@BN_CHANLL 31, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Norway/@BN_CHANLL 32, server: 46.29.219.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: Norway/@BN_CHANLL 33, server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Norway/@BN_CHANLL 34, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: Norway/@BN_CHANLL 35, server: 46.29.218.146, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: Norway/@BN_CHANLL 36, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: Poland/@BN_CHANLL, server: 5.188.108.155, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: Poland/@BN_CHANLL 2, server: 5.188.108.155, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: Romania/@BN_CHANLL, server: 185.233.150.6, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
+  - {name: Russian Federation/@BN_CHANLL, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
+  - {name: Singapore/@BN_CHANLL, server: 81.90.189.172, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: Singapore/@BN_CHANLL 2, server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: Singapore/@BN_CHANLL 3, server: 81.90.189.57, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Singapore/@BN_CHANLL 4, server: 81.90.188.167, port: 827, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: Singapore/@BN_CHANLL 5, server: 81.90.189.57, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Singapore/@BN_CHANLL 6, server: 81.90.189.57, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Singapore/@BN_CHANLL 7, server: 139.99.123.156, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: Singapore/@BN_CHANLL 8, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: Singapore/@BN_CHANLL 9, server: 81.90.189.57, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States/@BN_CHANLL, server: 38.75.137.9, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 2, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States/@BN_CHANLL 3, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 4, server: 167.88.63.99, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States/@BN_CHANLL 5, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: United States/@BN_CHANLL 6, server: 38.68.134.62, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 7, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: United States/@BN_CHANLL 8, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: United States/@BN_CHANLL 9, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 10, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 11, server: 169.197.142.47, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States/@BN_CHANLL 12, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 13, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States/@BN_CHANLL 14, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States/@BN_CHANLL 15, server: 37.120.136.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: United States/@BN_CHANLL 16, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States/@BN_CHANLL 17, server: 142.202.48.103, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 18, server: 149.7.16.10, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: United States/@BN_CHANLL 19, server: 149.7.16.10, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States/@BN_CHANLL 20, server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: United States/@BN_CHANLL 21, server: 149.7.16.10, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: United States/@BN_CHANLL 22, server: 169.197.142.47, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: United States/@BN_CHANLL 23, server: 169.197.142.47, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 24, server: 142.202.48.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: United States/@BN_CHANLL 25, server: 38.91.100.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 26, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: United States/@BN_CHANLL 27, server: 142.202.48.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States/@BN_CHANLL 28, server: 38.91.100.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 29, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: United States/@BN_CHANLL 30, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 31, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: United States/@BN_CHANLL 32, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States/@BN_CHANLL 33, server: 142.202.48.45, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 34, server: 5.181.234.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States/@BN_CHANLL 35, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States/@BN_CHANLL 36, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States/@BN_CHANLL 37, server: 142.202.48.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States/@BN_CHANLL 38, server: 142.202.48.17, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: United States/@BN_CHANLL 39, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 40, server: 142.202.48.45, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 41, server: 142.202.48.17, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 42, server: 142.202.48.7, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: United States/@BN_CHANLL 43, server: 167.88.63.64, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 44, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States/@BN_CHANLL 45, server: 167.88.63.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: United States/@BN_CHANLL 46, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States/@BN_CHANLL 47, server: 167.88.63.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: United States/@BN_CHANLL 48, server: 167.88.63.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 49, server: 167.88.63.64, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States/@BN_CHANLL 50, server: 38.121.43.142, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States/@BN_CHANLL 51, server: 167.88.63.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: United States/@BN_CHANLL 52, server: 167.88.63.64, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States/@BN_CHANLL 53, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: United States/@BN_CHANLL 54, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: United States/@BN_CHANLL 55, server: 167.88.63.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States/@BN_CHANLL 56, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States/@BN_CHANLL 57, server: 167.88.63.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: United States/@BN_CHANLL 58, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: United States/@BN_CHANLL 59, server: 167.88.63.61, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 60, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: United States/@BN_CHANLL 61, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 62, server: 167.88.63.44, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 63, server: 167.88.63.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 64, server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States/@BN_CHANLL 65, server: 167.88.62.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 66, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States/@BN_CHANLL 67, server: 193.239.87.134, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States/@BN_CHANLL 68, server: 77.247.126.153, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States/@BN_CHANLL 69, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: United States/@BN_CHANLL 70, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States/@BN_CHANLL 71, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 72, server: 169.197.142.47, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States/@BN_CHANLL 73, server: 37.120.147.230, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States/@BN_CHANLL 74, server: 169.197.142.47, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: United States/@BN_CHANLL 75, server: 167.88.61.213, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: United States/@BN_CHANLL 76, server: 167.88.61.213, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: United States/@BN_CHANLL 77, server: 77.247.126.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States/@BN_CHANLL 78, server: 167.88.61.110, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States/@BN_CHANLL 79, server: 167.88.61.213, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States/@BN_CHANLL 80, server: 167.88.61.240, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States/@BN_CHANLL 81, server: 169.197.142.47, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL, server: 167.88.63.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 2, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 3, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 4, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 5, server: 167.88.63.117, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 6, server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 7, server: 167.88.63.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 8, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 9, server: 142.202.48.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 10, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 11, server: 142.202.48.77, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 12, server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 13, server: 142.202.48.77, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 14, server: 142.202.48.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 15, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 16, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 17, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 18, server: 142.202.48.108, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 19, server: 142.202.48.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 20, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 21, server: 142.202.48.77, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 22, server: 142.202.48.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 23, server: 142.202.48.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 24, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 25, server: 142.202.48.105, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 26, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 27, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 28, server: 142.202.48.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 29, server: 142.202.48.17, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 30, server: 142.202.48.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 31, server: 142.202.48.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 32, server: 142.202.48.77, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: United States| @BN_CHANLL 33, server: 142.202.48.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 34, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 35, server: 142.202.48.77, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: United States| @BN_CHANLL 36, server: 142.202.48.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 37, server: 142.202.48.108, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 38, server: 142.202.48.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 39, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 40, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 41, server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 42, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 43, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 44, server: 142.202.48.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 45, server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 46, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 47, server: 142.202.48.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 48, server: 142.202.48.78, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 49, server: 142.202.48.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 50, server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 51, server: 142.202.48.77, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 52, server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 53, server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 54, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 55, server: 142.202.48.45, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 56, server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 57, server: 142.202.48.77, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 58, server: 142.202.48.77, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 59, server: 142.202.48.77, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 60, server: 142.202.48.78, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 61, server: 142.202.48.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 62, server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 63, server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 64, server: 142.202.48.78, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 65, server: 142.202.48.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 66, server: 142.202.48.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 67, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 68, server: 142.202.48.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 69, server: 142.202.48.17, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 70, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 71, server: 142.202.48.78, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 72, server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 73, server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 74, server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 75, server: 167.88.63.89, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 76, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 77, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 78, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 79, server: 167.88.63.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 80, server: 167.88.63.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 81, server: 167.88.63.79, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 82, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 83, server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 84, server: 167.88.63.79, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: United States| @BN_CHANLL 85, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 86, server: 167.88.63.117, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 87, server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 88, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 89, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 90, server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 91, server: 167.88.63.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 92, server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 93, server: 167.88.63.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 94, server: 167.88.63.117, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 95, server: 167.88.63.117, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 96, server: 167.88.63.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 97, server: 167.88.62.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 98, server: 167.88.63.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 99, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 100, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: United States| @BN_CHANLL 101, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 102, server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 103, server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 104, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: United States| @BN_CHANLL 105, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 106, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 107, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 108, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 109, server: 167.88.62.68, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 110, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: United States| @BN_CHANLL 111, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 112, server: 167.88.63.89, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 113, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: United States| @BN_CHANLL 114, server: 142.202.48.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 115, server: 142.202.48.78, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: United States| @BN_CHANLL 116, server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 117, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: United States| @BN_CHANLL 118, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: United States| @BN_CHANLL 119, server: 142.202.48.45, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: United States| @BN_CHANLL 120, server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States| @BN_CHANLL 121, server: 169.197.143.15, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: United States| @BN_CHANLL 122, server: 142.202.48.108, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: UnitedStates/@BN_CHANLL, server: 142.202.48.17, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: UnitedStates/@BN_CHANLL 2, server: 167.88.62.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: UnitedStates/@BN_CHANLL 3, server: 167.88.63.79, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: UnitedStates/@BN_CHANLL 4, server: 167.88.63.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: UnitedStates/@BN_CHANLL 5, server: 167.88.63.11, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: UnitedStates/@BN_CHANLL 6, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: UnitedStates/@BN_CHANLL 7, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: UnitedStates/@BN_CHANLL 8, server: 142.202.48.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: UnitedStates/@BN_CHANLL 9, server: 142.202.48.45, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: UnitedStates/@BN_CHANLL 10, server: 142.202.48.34, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: UnitedStates/@BN_CHANLL 11, server: 142.202.48.55, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: UnitedStates/@BN_CHANLL 12, server: 142.202.48.7, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: UnitedStates/@BN_CHANLL 13, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: UnitedStates/@BN_CHANLL 14, server: 167.88.63.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: UnitedStates/@BN_CHANLL 15, server: 167.88.63.92, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: UnitedStates/@BN_CHANLL 16, server: 167.88.63.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: UnitedStates/@BN_CHANLL 17, server: 167.88.63.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: UnitedStates/@BN_CHANLL 18, server: 167.88.63.59, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: UnitedStates/@BN_CHANLL 19, server: 167.88.63.64, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: UnitedStates/@BN_CHANLL 20, server: 167.88.63.117, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: UnitedStates/@BN_CHANLL 21, server: 167.88.63.64, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: UnitedStates/@BN_CHANLL 22, server: 167.88.63.117, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: UnitedStates/@BN_CHANLL 23, server: 167.88.63.79, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: UnitedStates/@BN_CHANLL 24, server: 167.88.63.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: UnitedStates/@BN_CHANLL 25, server: 142.202.48.83, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+proxy-groups:
+  - name: 🔰 SELECT(@BN_CHANLL)
+    type: select
+    proxies:
+      - ♻️ BESTPING(@BN_CHANLL)
+      - CAN 🇨🇦 Beauharnois 2| @BN_CHANLL
+      - CAN 🇨🇦 Beauharnois| @BN_CHANLL
+      - GER 🇩🇪 Frankfurt| @BN_CHANLL
+      - GER 🇩🇪 Hesse 2| @BN_CHANLL
+      - GER 🇩🇪 Nuremberg| @BN_CHANLL
+      - HKG 🇭🇰 Central 3| @BN_CHANLL
+      - HKG 🇭🇰 Central 4| @BN_CHANLL
+      - HKG 🇭🇰 Central 5| @BN_CHANLL
+      - ITA 🇮🇹 Rome| @BN_CHANLL
+      - JPN 🇯🇵 Tokyo 2| @BN_CHANLL
+      - KOR 🇰🇷 Seoul 2| @BN_CHANLL
+      - SNG 🇸🇬 Singapore| @BN_CHANLL
+      - USA 🇺🇸 Georgia 2| @BN_CHANLL
+      - USA 🇺🇸 New Jersey 2| @BN_CHANLL
+      - USA 🇺🇸 New York 10| @BN_CHANLL
+      - USA 🇺🇸 New York 13| @BN_CHANLL
+      - USA 🇺🇸 New York 14| @BN_CHANLL
+      - USA 🇺🇸 New York 17| @BN_CHANLL
+      - USA 🇺🇸 New York 18| @BN_CHANLL
+      - USA 🇺🇸 New York 26| @BN_CHANLL
+      - USA 🇺🇸 New York 28| @BN_CHANLL
+      - USA 🇺🇸 New York 35| @BN_CHANLL
+      - USA 🇺🇸 New York 40| @BN_CHANLL
+      - USA 🇺🇸 New York 42| @BN_CHANLL
+      - USA 🇺🇸 New York 7| @BN_CHANLL
+      - USA 🇺🇸 New York 8| @BN_CHANLL
+      - USA 🇺🇸 New York 9| @BN_CHANLL
+      - USA 🇺🇸 Texas 2| @BN_CHANLL
+      - USA 🇺🇸 Texas 4| @BN_CHANLL
+      - USA 🇺🇸 Texas 5| @BN_CHANLL
+      - USA 🇺🇸 Texas 6| @BN_CHANLL
+      - United Arab Emirates/@BN_CHANLL
+      - United Arab Emirates/@BN_CHANLL 2
+      - United Arab Emirates/@BN_CHANLL 3
+      - Belgium/@BN_CHANLL
+      - Canada/@BN_CHANLL
+      - Canada/@BN_CHANLL 2
+      - Canada/@BN_CHANLL 3
+      - Canada/@BN_CHANLL 4
+      - Canada/@BN_CHANLL 5
+      - Canada/@BN_CHANLL 6
+      - Canada/@BN_CHANLL 7
+      - Canada/@BN_CHANLL 8
+      - Canada/@BN_CHANLL 9
+      - Canada/@BN_CHANLL 10
+      - Canada/@BN_CHANLL 11
+      - Canada/@BN_CHANLL 12
+      - Canada/@BN_CHANLL 13
+      - Canada/@BN_CHANLL 14
+      - Canada/@BN_CHANLL 15
+      - Canada/@BN_CHANLL 16
+      - Canada/@BN_CHANLL 17
+      - Canada/@BN_CHANLL 18
+      - Canada/@BN_CHANLL 19
+      - Canada/@BN_CHANLL 20
+      - Canada/@BN_CHANLL 21
+      - Canada/@BN_CHANLL 22
+      - Canada/@BN_CHANLL 23
+      - Canada/@BN_CHANLL 24
+      - Canada/@BN_CHANLL 25
+      - Canada/@BN_CHANLL 26
+      - Canada/@BN_CHANLL 27
+      - Canada/@BN_CHANLL 28
+      - Canada/@BN_CHANLL 29
+      - Canada/@BN_CHANLL 30
+      - Canada/@BN_CHANLL 31
+      - Canada/@BN_CHANLL 32
+      - Canada/@BN_CHANLL 33
+      - Canada/@BN_CHANLL 34
+      - Canada/@BN_CHANLL 35
+      - Canada/@BN_CHANLL 36
+      - Canada/@BN_CHANLL 37
+      - Canada/@BN_CHANLL 38
+      - Canada/@BN_CHANLL 39
+      - Canada/@BN_CHANLL 40
+      - Canada/@BN_CHANLL 41
+      - Canada/@BN_CHANLL 42
+      - Canada/@BN_CHANLL 43
+      - Canada/@BN_CHANLL 44
+      - Canada/@BN_CHANLL 45
+      - Canada/@BN_CHANLL 46
+      - Canada/@BN_CHANLL 47
+      - Canada/@BN_CHANLL 48
+      - Canada/@BN_CHANLL 49
+      - Canada/@BN_CHANLL 50
+      - Canada/@BN_CHANLL 51
+      - Canada/@BN_CHANLL 52
+      - Canada/@BN_CHANLL 53
+      - Canada/@BN_CHANLL 54
+      - Canada/@BN_CHANLL 55
+      - Canada/@BN_CHANLL 56
+      - Canada/@BN_CHANLL 57
+      - Canada/@BN_CHANLL 58
+      - Canada/@BN_CHANLL 59
+      - Canada/@BN_CHANLL 60
+      - Canada/@BN_CHANLL 61
+      - Canada/@BN_CHANLL 62
+      - Canada/@BN_CHANLL 63
+      - Canada/@BN_CHANLL 64
+      - Canada/@BN_CHANLL 65
+      - Canada/@BN_CHANLL 66
+      - Canada/@BN_CHANLL 67
+      - Canada/@BN_CHANLL 68
+      - Canada/@BN_CHANLL 69
+      - Canada/@BN_CHANLL 70
+      - Canada/@BN_CHANLL 71
+      - Canada/@BN_CHANLL 72
+      - Canada/@BN_CHANLL 73
+      - Canada/@BN_CHANLL 74
+      - Canada/@BN_CHANLL 75
+      - Canada/@BN_CHANLL 76
+      - Canada/@BN_CHANLL 77
+      - Canada/@BN_CHANLL 78
+      - Canada/@BN_CHANLL 79
+      - Canada/@BN_CHANLL 80
+      - Canada/@BN_CHANLL 81
+      - Canada/@BN_CHANLL 82
+      - Canada/@BN_CHANLL 83
+      - Canada/@BN_CHANLL 84
+      - Canada/@BN_CHANLL 85
+      - Canada/@BN_CHANLL 86
+      - Canada/@BN_CHANLL 87
+      - Canada/@BN_CHANLL 88
+      - Canada/@BN_CHANLL 89
+      - Canada/@BN_CHANLL 90
+      - Canada/@BN_CHANLL 91
+      - Canada/@BN_CHANLL 92
+      - Canada/@BN_CHANLL 93
+      - Canada/@BN_CHANLL 94
+      - Canada/@BN_CHANLL 95
+      - Canada/@BN_CHANLL 96
+      - Canada/@BN_CHANLL 97
+      - Canada/@BN_CHANLL 98
+      - Canada/@BN_CHANLL 99
+      - Canada/@BN_CHANLL 100
+      - Canada/@BN_CHANLL 101
+      - Canada/@BN_CHANLL 102
+      - Canada/@BN_CHANLL 103
+      - Canada/@BN_CHANLL 104
+      - Canada/@BN_CHANLL 105
+      - Canada/@BN_CHANLL 106
+      - Canada/@BN_CHANLL 107
+      - Canada/@BN_CHANLL 108
+      - Canada/@BN_CHANLL 109
+      - Canada/@BN_CHANLL 110
+      - Canada/@BN_CHANLL 111
+      - Canada| @BN_CHANLL
+      - Canada| @BN_CHANLL 2
+      - Canada| @BN_CHANLL 3
+      - Canada| @BN_CHANLL 4
+      - Canada| @BN_CHANLL 5
+      - Canada| @BN_CHANLL 6
+      - Canada| @BN_CHANLL 7
+      - Canada| @BN_CHANLL 8
+      - Canada| @BN_CHANLL 9
+      - Canada| @BN_CHANLL 10
+      - Canada| @BN_CHANLL 11
+      - Canada| @BN_CHANLL 12
+      - Canada| @BN_CHANLL 13
+      - Canada| @BN_CHANLL 14
+      - Canada| @BN_CHANLL 15
+      - Canada| @BN_CHANLL 16
+      - Canada| @BN_CHANLL 17
+      - Canada| @BN_CHANLL 18
+      - Canada| @BN_CHANLL 19
+      - Canada| @BN_CHANLL 20
+      - Canada| @BN_CHANLL 21
+      - Canada| @BN_CHANLL 22
+      - Canada| @BN_CHANLL 23
+      - Canada| @BN_CHANLL 24
+      - Canada| @BN_CHANLL 25
+      - Canada| @BN_CHANLL 26
+      - Canada| @BN_CHANLL 27
+      - Canada| @BN_CHANLL 28
+      - Canada| @BN_CHANLL 29
+      - Canada| @BN_CHANLL 30
+      - Canada| @BN_CHANLL 31
+      - Canada| @BN_CHANLL 32
+      - Canada| @BN_CHANLL 33
+      - Canada| @BN_CHANLL 34
+      - Canada| @BN_CHANLL 35
+      - Canada| @BN_CHANLL 36
+      - Canada| @BN_CHANLL 37
+      - Canada| @BN_CHANLL 38
+      - Canada| @BN_CHANLL 39
+      - Canada| @BN_CHANLL 40
+      - Canada| @BN_CHANLL 41
+      - Canada| @BN_CHANLL 42
+      - Canada| @BN_CHANLL 43
+      - Canada| @BN_CHANLL 44
+      - Canada| @BN_CHANLL 45
+      - Canada| @BN_CHANLL 46
+      - Canada| @BN_CHANLL 47
+      - Canada| @BN_CHANLL 48
+      - Canada| @BN_CHANLL 49
+      - Canada| @BN_CHANLL 50
+      - Canada| @BN_CHANLL 51
+      - Canada| @BN_CHANLL 52
+      - Canada| @BN_CHANLL 53
+      - Canada| @BN_CHANLL 54
+      - Canada| @BN_CHANLL 55
+      - Canada| @BN_CHANLL 56
+      - Canada| @BN_CHANLL 57
+      - Canada| @BN_CHANLL 58
+      - Canada| @BN_CHANLL 59
+      - Canada| @BN_CHANLL 60
+      - Canada| @BN_CHANLL 61
+      - Canada| @BN_CHANLL 62
+      - Canada| @BN_CHANLL 63
+      - Canada| @BN_CHANLL 64
+      - Canada| @BN_CHANLL 65
+      - Canada| @BN_CHANLL 66
+      - Canada| @BN_CHANLL 67
+      - Canada| @BN_CHANLL 68
+      - Canada| @BN_CHANLL 69
+      - Canada| @BN_CHANLL 70
+      - Canada| @BN_CHANLL 71
+      - Canada| @BN_CHANLL 72
+      - Canada| @BN_CHANLL 73
+      - Canada| @BN_CHANLL 74
+      - Canada| @BN_CHANLL 75
+      - Canada| @BN_CHANLL 76
+      - Canada| @BN_CHANLL 77
+      - Canada| @BN_CHANLL 78
+      - Canada| @BN_CHANLL 79
+      - Canada| @BN_CHANLL 80
+      - Canada| @BN_CHANLL 81
+      - Canada| @BN_CHANLL 82
+      - Canada| @BN_CHANLL 83
+      - Canada| @BN_CHANLL 84
+      - Canada| @BN_CHANLL 85
+      - Canada| @BN_CHANLL 86
+      - Canada| @BN_CHANLL 87
+      - Canada| @BN_CHANLL 88
+      - Canada| @BN_CHANLL 89
+      - Canada| @BN_CHANLL 90
+      - Canada| @BN_CHANLL 91
+      - Canada| @BN_CHANLL 92
+      - Canada| @BN_CHANLL 93
+      - Canada| @BN_CHANLL 94
+      - Canada| @BN_CHANLL 95
+      - Canada| @BN_CHANLL 96
+      - Canada| @BN_CHANLL 97
+      - Canada| @BN_CHANLL 98
+      - Canada| @BN_CHANLL 99
+      - Canada| @BN_CHANLL 100
+      - Canada| @BN_CHANLL 101
+      - Canada| @BN_CHANLL 102
+      - Canada| @BN_CHANLL 103
+      - Canada| @BN_CHANLL 104
+      - Canada| @BN_CHANLL 105
+      - Canada| @BN_CHANLL 106
+      - Canada| @BN_CHANLL 107
+      - Canada| @BN_CHANLL 108
+      - Canada/@BN_CHANLL 112
+      - Canada/@BN_CHANLL 113
+      - Canada/@BN_CHANLL 114
+      - Canada/@BN_CHANLL 115
+      - Canada/@BN_CHANLL 116
+      - Canada/@BN_CHANLL 117
+      - Canada/@BN_CHANLL 118
+      - Canada/@BN_CHANLL 119
+      - Canada/@BN_CHANLL 120
+      - Canada/@BN_CHANLL 121
+      - Canada/@BN_CHANLL 122
+      - Canada/@BN_CHANLL 123
+      - Canada/@BN_CHANLL 124
+      - Canada/@BN_CHANLL 125
+      - Canada/@BN_CHANLL 126
+      - Canada/@BN_CHANLL 127
+      - Canada/@BN_CHANLL 128
+      - Canada/@BN_CHANLL 129
+      - Canada/@BN_CHANLL 130
+      - Canada/@BN_CHANLL 131
+      - Canada/@BN_CHANLL 132
+      - Canada/@BN_CHANLL 133
+      - Canada/@BN_CHANLL 134
+      - Canada/@BN_CHANLL 135
+      - Canada/@BN_CHANLL 136
+      - Canada/@BN_CHANLL 137
+      - Canada/@BN_CHANLL 138
+      - Canada/@BN_CHANLL 139
+      - Canada/@BN_CHANLL 140
+      - Canada/@BN_CHANLL 141
+      - Canada/@BN_CHANLL 142
+      - Canada/@BN_CHANLL 143
+      - Canada/@BN_CHANLL 144
+      - Czechia/@BN_CHANLL
+      - Germany/@BN_CHANLL
+      - Germany/@BN_CHANLL 2
+      - Germany/@BN_CHANLL 3
+      - Germany/@BN_CHANLL 4
+      - Germany/@BN_CHANLL 5
+      - Germany| @BN_CHANLL
+      - Germany| @BN_CHANLL 2
+      - France/@BN_CHANLL
+      - France/@BN_CHANLL 2
+      - United Kingdom/@BN_CHANLL
+      - Hong Kong SAR China/@BN_CHANLL
+      - Hong Kong SAR China/@BN_CHANLL 2
+      - Hong Kong SAR China/@BN_CHANLL 3
+      - Hong Kong SAR China/@BN_CHANLL 4
+      - Hong Kong SAR China/@BN_CHANLL 5
+      - Hong Kong SAR China/@BN_CHANLL 6
+      - Hong Kong SAR China/@BN_CHANLL 7
+      - Hong Kong SAR China/@BN_CHANLL 8
+      - Hong Kong SAR China/@BN_CHANLL 9
+      - Hong Kong SAR China/@BN_CHANLL 10
+      - Hong Kong SAR China/@BN_CHANLL 11
+      - Hong Kong SAR China| @BN_CHANLL
+      - Hong Kong SAR China| @BN_CHANLL 2
+      - Hong Kong SAR China| @BN_CHANLL 3
+      - Hong Kong SAR China| @BN_CHANLL 4
+      - Hong Kong SAR China| @BN_CHANLL 5
+      - Hong Kong SAR China| @BN_CHANLL 6
+      - Hong Kong SAR China| @BN_CHANLL 7
+      - Hong Kong SAR China| @BN_CHANLL 8
+      - Hong Kong SAR China| @BN_CHANLL 9
+      - Hong Kong SAR China| @BN_CHANLL 10
+      - Hong Kong SAR China| @BN_CHANLL 11
+      - Hong Kong SAR China| @BN_CHANLL 12
+      - India/@BN_CHANLL
+      - India/@BN_CHANLL 2
+      - India/@BN_CHANLL 3
+      - India/@BN_CHANLL 4
+      - India/@BN_CHANLL 5
+      - India/@BN_CHANLL 6
+      - India/@BN_CHANLL 7
+      - India/@BN_CHANLL 8
+      - India/@BN_CHANLL 9
+      - Italy/@BN_CHANLL
+      - Italy/@BN_CHANLL 2
+      - Italy/@BN_CHANLL 3
+      - Japan/@BN_CHANLL
+      - Japan/@BN_CHANLL 2
+      - Japan/@BN_CHANLL 3
+      - Japan| @BN_CHANLL
+      - Japan| @BN_CHANLL 2
+      - Japan| @BN_CHANLL 3
+      - Japan| @BN_CHANLL 4
+      - North Korea/@BN_CHANLL
+      - North Korea/@BN_CHANLL 2
+      - North Korea/@BN_CHANLL 3
+      - North Korea/@BN_CHANLL 4
+      - North Korea/@BN_CHANLL 5
+      - North Korea/@BN_CHANLL 6
+      - North Korea/@BN_CHANLL 7
+      - North Korea/@BN_CHANLL 8
+      - North Korea/@BN_CHANLL 9
+      - North Korea/@BN_CHANLL 10
+      - North Korea/@BN_CHANLL 11
+      - North Korea/@BN_CHANLL 12
+      - North Korea/@BN_CHANLL 13
+      - North Korea/@BN_CHANLL 14
+      - North Korea/@BN_CHANLL 15
+      - North Korea/@BN_CHANLL 16
+      - North Korea/@BN_CHANLL 17
+      - North Korea/@BN_CHANLL 18
+      - North Korea/@BN_CHANLL 19
+      - North Korea/@BN_CHANLL 20
+      - North Korea/@BN_CHANLL 21
+      - North Korea/@BN_CHANLL 22
+      - North Korea/@BN_CHANLL 23
+      - North Korea/@BN_CHANLL 24
+      - North Korea/@BN_CHANLL 25
+      - North Korea/@BN_CHANLL 26
+      - North Korea/@BN_CHANLL 27
+      - North Korea/@BN_CHANLL 28
+      - North Korea/@BN_CHANLL 29
+      - North Korea/@BN_CHANLL 30
+      - North Korea/@BN_CHANLL 31
+      - North Korea/@BN_CHANLL 32
+      - North Korea/@BN_CHANLL 33
+      - North Korea/@BN_CHANLL 34
+      - North Korea/@BN_CHANLL 35
+      - North Korea/@BN_CHANLL 36
+      - North Korea/@BN_CHANLL 37
+      - North Korea/@BN_CHANLL 38
+      - North Korea/@BN_CHANLL 39
+      - North Korea/@BN_CHANLL 40
+      - North Korea/@BN_CHANLL 41
+      - North Korea/@BN_CHANLL 42
+      - North Korea/@BN_CHANLL 43
+      - North Korea/@BN_CHANLL 44
+      - North Korea/@BN_CHANLL 45
+      - North Korea/@BN_CHANLL 46
+      - North Korea/@BN_CHANLL 47
+      - North Korea/@BN_CHANLL 48
+      - North Korea/@BN_CHANLL 49
+      - North Korea/@BN_CHANLL 50
+      - North Korea/@BN_CHANLL 51
+      - North Korea/@BN_CHANLL 52
+      - North Korea/@BN_CHANLL 53
+      - North Korea/@BN_CHANLL 54
+      - North Korea/@BN_CHANLL 55
+      - South Korea| @BN_CHANLL
+      - South Korea| @BN_CHANLL 2
+      - South Korea| @BN_CHANLL 3
+      - South Korea| @BN_CHANLL 4
+      - South Korea| @BN_CHANLL 5
+      - South Korea| @BN_CHANLL 6
+      - Luxembourg/@BN_CHANLL
+      - Moldova/@BN_CHANLL
+      - Netherlands/@BN_CHANLL
+      - Norway/@BN_CHANLL
+      - Norway/@BN_CHANLL 2
+      - Norway/@BN_CHANLL 3
+      - Norway/@BN_CHANLL 4
+      - Norway/@BN_CHANLL 5
+      - Norway/@BN_CHANLL 6
+      - Norway/@BN_CHANLL 7
+      - Norway/@BN_CHANLL 8
+      - Norway/@BN_CHANLL 9
+      - Norway/@BN_CHANLL 10
+      - Norway/@BN_CHANLL 11
+      - Norway/@BN_CHANLL 12
+      - Norway/@BN_CHANLL 13
+      - Norway/@BN_CHANLL 14
+      - Norway/@BN_CHANLL 15
+      - Norway/@BN_CHANLL 16
+      - Norway/@BN_CHANLL 17
+      - Norway/@BN_CHANLL 18
+      - Norway/@BN_CHANLL 19
+      - Norway/@BN_CHANLL 20
+      - Norway/@BN_CHANLL 21
+      - Norway/@BN_CHANLL 22
+      - Norway/@BN_CHANLL 23
+      - Norway/@BN_CHANLL 24
+      - Norway/@BN_CHANLL 25
+      - Norway/@BN_CHANLL 26
+      - Norway/@BN_CHANLL 27
+      - Norway| @BN_CHANLL
+      - Norway| @BN_CHANLL 2
+      - Norway| @BN_CHANLL 3
+      - Norway| @BN_CHANLL 4
+      - Norway/@BN_CHANLL 28
+      - Norway/@BN_CHANLL 29
+      - Norway/@BN_CHANLL 30
+      - Norway/@BN_CHANLL 31
+      - Norway/@BN_CHANLL 32
+      - Norway/@BN_CHANLL 33
+      - Norway/@BN_CHANLL 34
+      - Norway/@BN_CHANLL 35
+      - Norway/@BN_CHANLL 36
+      - Poland/@BN_CHANLL
+      - Poland/@BN_CHANLL 2
+      - Romania/@BN_CHANLL
+      - Russian Federation/@BN_CHANLL
+      - Singapore/@BN_CHANLL
+      - Singapore/@BN_CHANLL 2
+      - Singapore/@BN_CHANLL 3
+      - Singapore/@BN_CHANLL 4
+      - Singapore/@BN_CHANLL 5
+      - Singapore/@BN_CHANLL 6
+      - Singapore/@BN_CHANLL 7
+      - Singapore/@BN_CHANLL 8
+      - Singapore/@BN_CHANLL 9
+      - United States/@BN_CHANLL
+      - United States/@BN_CHANLL 2
+      - United States/@BN_CHANLL 3
+      - United States/@BN_CHANLL 4
+      - United States/@BN_CHANLL 5
+      - United States/@BN_CHANLL 6
+      - United States/@BN_CHANLL 7
+      - United States/@BN_CHANLL 8
+      - United States/@BN_CHANLL 9
+      - United States/@BN_CHANLL 10
+      - United States/@BN_CHANLL 11
+      - United States/@BN_CHANLL 12
+      - United States/@BN_CHANLL 13
+      - United States/@BN_CHANLL 14
+      - United States/@BN_CHANLL 15
+      - United States/@BN_CHANLL 16
+      - United States/@BN_CHANLL 17
+      - United States/@BN_CHANLL 18
+      - United States/@BN_CHANLL 19
+      - United States/@BN_CHANLL 20
+      - United States/@BN_CHANLL 21
+      - United States/@BN_CHANLL 22
+      - United States/@BN_CHANLL 23
+      - United States/@BN_CHANLL 24
+      - United States/@BN_CHANLL 25
+      - United States/@BN_CHANLL 26
+      - United States/@BN_CHANLL 27
+      - United States/@BN_CHANLL 28
+      - United States/@BN_CHANLL 29
+      - United States/@BN_CHANLL 30
+      - United States/@BN_CHANLL 31
+      - United States/@BN_CHANLL 32
+      - United States/@BN_CHANLL 33
+      - United States/@BN_CHANLL 34
+      - United States/@BN_CHANLL 35
+      - United States/@BN_CHANLL 36
+      - United States/@BN_CHANLL 37
+      - United States/@BN_CHANLL 38
+      - United States/@BN_CHANLL 39
+      - United States/@BN_CHANLL 40
+      - United States/@BN_CHANLL 41
+      - United States/@BN_CHANLL 42
+      - United States/@BN_CHANLL 43
+      - United States/@BN_CHANLL 44
+      - United States/@BN_CHANLL 45
+      - United States/@BN_CHANLL 46
+      - United States/@BN_CHANLL 47
+      - United States/@BN_CHANLL 48
+      - United States/@BN_CHANLL 49
+      - United States/@BN_CHANLL 50
+      - United States/@BN_CHANLL 51
+      - United States/@BN_CHANLL 52
+      - United States/@BN_CHANLL 53
+      - United States/@BN_CHANLL 54
+      - United States/@BN_CHANLL 55
+      - United States/@BN_CHANLL 56
+      - United States/@BN_CHANLL 57
+      - United States/@BN_CHANLL 58
+      - United States/@BN_CHANLL 59
+      - United States/@BN_CHANLL 60
+      - United States/@BN_CHANLL 61
+      - United States/@BN_CHANLL 62
+      - United States/@BN_CHANLL 63
+      - United States/@BN_CHANLL 64
+      - United States/@BN_CHANLL 65
+      - United States/@BN_CHANLL 66
+      - United States/@BN_CHANLL 67
+      - United States/@BN_CHANLL 68
+      - United States/@BN_CHANLL 69
+      - United States/@BN_CHANLL 70
+      - United States/@BN_CHANLL 71
+      - United States/@BN_CHANLL 72
+      - United States/@BN_CHANLL 73
+      - United States/@BN_CHANLL 74
+      - United States/@BN_CHANLL 75
+      - United States/@BN_CHANLL 76
+      - United States/@BN_CHANLL 77
+      - United States/@BN_CHANLL 78
+      - United States/@BN_CHANLL 79
+      - United States/@BN_CHANLL 80
+      - United States/@BN_CHANLL 81
+      - United States| @BN_CHANLL
+      - United States| @BN_CHANLL 2
+      - United States| @BN_CHANLL 3
+      - United States| @BN_CHANLL 4
+      - United States| @BN_CHANLL 5
+      - United States| @BN_CHANLL 6
+      - United States| @BN_CHANLL 7
+      - United States| @BN_CHANLL 8
+      - United States| @BN_CHANLL 9
+      - United States| @BN_CHANLL 10
+      - United States| @BN_CHANLL 11
+      - United States| @BN_CHANLL 12
+      - United States| @BN_CHANLL 13
+      - United States| @BN_CHANLL 14
+      - United States| @BN_CHANLL 15
+      - United States| @BN_CHANLL 16
+      - United States| @BN_CHANLL 17
+      - United States| @BN_CHANLL 18
+      - United States| @BN_CHANLL 19
+      - United States| @BN_CHANLL 20
+      - United States| @BN_CHANLL 21
+      - United States| @BN_CHANLL 22
+      - United States| @BN_CHANLL 23
+      - United States| @BN_CHANLL 24
+      - United States| @BN_CHANLL 25
+      - United States| @BN_CHANLL 26
+      - United States| @BN_CHANLL 27
+      - United States| @BN_CHANLL 28
+      - United States| @BN_CHANLL 29
+      - United States| @BN_CHANLL 30
+      - United States| @BN_CHANLL 31
+      - United States| @BN_CHANLL 32
+      - United States| @BN_CHANLL 33
+      - United States| @BN_CHANLL 34
+      - United States| @BN_CHANLL 35
+      - United States| @BN_CHANLL 36
+      - United States| @BN_CHANLL 37
+      - United States| @BN_CHANLL 38
+      - United States| @BN_CHANLL 39
+      - United States| @BN_CHANLL 40
+      - United States| @BN_CHANLL 41
+      - United States| @BN_CHANLL 42
+      - United States| @BN_CHANLL 43
+      - United States| @BN_CHANLL 44
+      - United States| @BN_CHANLL 45
+      - United States| @BN_CHANLL 46
+      - United States| @BN_CHANLL 47
+      - United States| @BN_CHANLL 48
+      - United States| @BN_CHANLL 49
+      - United States| @BN_CHANLL 50
+      - United States| @BN_CHANLL 51
+      - United States| @BN_CHANLL 52
+      - United States| @BN_CHANLL 53
+      - United States| @BN_CHANLL 54
+      - United States| @BN_CHANLL 55
+      - United States| @BN_CHANLL 56
+      - United States| @BN_CHANLL 57
+      - United States| @BN_CHANLL 58
+      - United States| @BN_CHANLL 59
+      - United States| @BN_CHANLL 60
+      - United States| @BN_CHANLL 61
+      - United States| @BN_CHANLL 62
+      - United States| @BN_CHANLL 63
+      - United States| @BN_CHANLL 64
+      - United States| @BN_CHANLL 65
+      - United States| @BN_CHANLL 66
+      - United States| @BN_CHANLL 67
+      - United States| @BN_CHANLL 68
+      - United States| @BN_CHANLL 69
+      - United States| @BN_CHANLL 70
+      - United States| @BN_CHANLL 71
+      - United States| @BN_CHANLL 72
+      - United States| @BN_CHANLL 73
+      - United States| @BN_CHANLL 74
+      - United States| @BN_CHANLL 75
+      - United States| @BN_CHANLL 76
+      - United States| @BN_CHANLL 77
+      - United States| @BN_CHANLL 78
+      - United States| @BN_CHANLL 79
+      - United States| @BN_CHANLL 80
+      - United States| @BN_CHANLL 81
+      - United States| @BN_CHANLL 82
+      - United States| @BN_CHANLL 83
+      - United States| @BN_CHANLL 84
+      - United States| @BN_CHANLL 85
+      - United States| @BN_CHANLL 86
+      - United States| @BN_CHANLL 87
+      - United States| @BN_CHANLL 88
+      - United States| @BN_CHANLL 89
+      - United States| @BN_CHANLL 90
+      - United States| @BN_CHANLL 91
+      - United States| @BN_CHANLL 92
+      - United States| @BN_CHANLL 93
+      - United States| @BN_CHANLL 94
+      - United States| @BN_CHANLL 95
+      - United States| @BN_CHANLL 96
+      - United States| @BN_CHANLL 97
+      - United States| @BN_CHANLL 98
+      - United States| @BN_CHANLL 99
+      - United States| @BN_CHANLL 100
+      - United States| @BN_CHANLL 101
+      - United States| @BN_CHANLL 102
+      - United States| @BN_CHANLL 103
+      - United States| @BN_CHANLL 104
+      - United States| @BN_CHANLL 105
+      - United States| @BN_CHANLL 106
+      - United States| @BN_CHANLL 107
+      - United States| @BN_CHANLL 108
+      - United States| @BN_CHANLL 109
+      - United States| @BN_CHANLL 110
+      - United States| @BN_CHANLL 111
+      - United States| @BN_CHANLL 112
+      - United States| @BN_CHANLL 113
+      - United States| @BN_CHANLL 114
+      - United States| @BN_CHANLL 115
+      - United States| @BN_CHANLL 116
+      - United States| @BN_CHANLL 117
+      - United States| @BN_CHANLL 118
+      - United States| @BN_CHANLL 119
+      - United States| @BN_CHANLL 120
+      - United States| @BN_CHANLL 121
+      - United States| @BN_CHANLL 122
+      - UnitedStates/@BN_CHANLL
+      - UnitedStates/@BN_CHANLL 2
+      - UnitedStates/@BN_CHANLL 3
+      - UnitedStates/@BN_CHANLL 4
+      - UnitedStates/@BN_CHANLL 5
+      - UnitedStates/@BN_CHANLL 6
+      - UnitedStates/@BN_CHANLL 7
+      - UnitedStates/@BN_CHANLL 8
+      - UnitedStates/@BN_CHANLL 9
+      - UnitedStates/@BN_CHANLL 10
+      - UnitedStates/@BN_CHANLL 11
+      - UnitedStates/@BN_CHANLL 12
+      - UnitedStates/@BN_CHANLL 13
+      - UnitedStates/@BN_CHANLL 14
+      - UnitedStates/@BN_CHANLL 15
+      - UnitedStates/@BN_CHANLL 16
+      - UnitedStates/@BN_CHANLL 17
+      - UnitedStates/@BN_CHANLL 18
+      - UnitedStates/@BN_CHANLL 19
+      - UnitedStates/@BN_CHANLL 20
+      - UnitedStates/@BN_CHANLL 21
+      - UnitedStates/@BN_CHANLL 22
+      - UnitedStates/@BN_CHANLL 23
+      - UnitedStates/@BN_CHANLL 24
+      - UnitedStates/@BN_CHANLL 25
+  - name: ♻️ BESTPING(@BN_CHANLL)
+    type: url-test
+    url: http://google.com
+    interval: 900
+    proxies:
+      - CAN 🇨🇦 Beauharnois 2| @BN_CHANLL
+      - CAN 🇨🇦 Beauharnois| @BN_CHANLL
+      - GER 🇩🇪 Frankfurt| @BN_CHANLL
+      - GER 🇩🇪 Hesse 2| @BN_CHANLL
+      - GER 🇩🇪 Nuremberg| @BN_CHANLL
+      - HKG 🇭🇰 Central 3| @BN_CHANLL
+      - HKG 🇭🇰 Central 4| @BN_CHANLL
+      - HKG 🇭🇰 Central 5| @BN_CHANLL
+      - ITA 🇮🇹 Rome| @BN_CHANLL
+      - JPN 🇯🇵 Tokyo 2| @BN_CHANLL
+      - KOR 🇰🇷 Seoul 2| @BN_CHANLL
+      - SNG 🇸🇬 Singapore| @BN_CHANLL
+      - USA 🇺🇸 Georgia 2| @BN_CHANLL
+      - USA 🇺🇸 New Jersey 2| @BN_CHANLL
+      - USA 🇺🇸 New York 10| @BN_CHANLL
+      - USA 🇺🇸 New York 13| @BN_CHANLL
+      - USA 🇺🇸 New York 14| @BN_CHANLL
+      - USA 🇺🇸 New York 17| @BN_CHANLL
+      - USA 🇺🇸 New York 18| @BN_CHANLL
+      - USA 🇺🇸 New York 26| @BN_CHANLL
+      - USA 🇺🇸 New York 28| @BN_CHANLL
+      - USA 🇺🇸 New York 35| @BN_CHANLL
+      - USA 🇺🇸 New York 40| @BN_CHANLL
+      - USA 🇺🇸 New York 42| @BN_CHANLL
+      - USA 🇺🇸 New York 7| @BN_CHANLL
+      - USA 🇺🇸 New York 8| @BN_CHANLL
+      - USA 🇺🇸 New York 9| @BN_CHANLL
+      - USA 🇺🇸 Texas 2| @BN_CHANLL
+      - USA 🇺🇸 Texas 4| @BN_CHANLL
+      - USA 🇺🇸 Texas 5| @BN_CHANLL
+      - USA 🇺🇸 Texas 6| @BN_CHANLL
+      - United Arab Emirates/@BN_CHANLL
+      - United Arab Emirates/@BN_CHANLL 2
+      - United Arab Emirates/@BN_CHANLL 3
+      - Belgium/@BN_CHANLL
+      - Canada/@BN_CHANLL
+      - Canada/@BN_CHANLL 2
+      - Canada/@BN_CHANLL 3
+      - Canada/@BN_CHANLL 4
+      - Canada/@BN_CHANLL 5
+      - Canada/@BN_CHANLL 6
+      - Canada/@BN_CHANLL 7
+      - Canada/@BN_CHANLL 8
+      - Canada/@BN_CHANLL 9
+      - Canada/@BN_CHANLL 10
+      - Canada/@BN_CHANLL 11
+      - Canada/@BN_CHANLL 12
+      - Canada/@BN_CHANLL 13
+      - Canada/@BN_CHANLL 14
+      - Canada/@BN_CHANLL 15
+      - Canada/@BN_CHANLL 16
+      - Canada/@BN_CHANLL 17
+      - Canada/@BN_CHANLL 18
+      - Canada/@BN_CHANLL 19
+      - Canada/@BN_CHANLL 20
+      - Canada/@BN_CHANLL 21
+      - Canada/@BN_CHANLL 22
+      - Canada/@BN_CHANLL 23
+      - Canada/@BN_CHANLL 24
+      - Canada/@BN_CHANLL 25
+      - Canada/@BN_CHANLL 26
+      - Canada/@BN_CHANLL 27
+      - Canada/@BN_CHANLL 28
+      - Canada/@BN_CHANLL 29
+      - Canada/@BN_CHANLL 30
+      - Canada/@BN_CHANLL 31
+      - Canada/@BN_CHANLL 32
+      - Canada/@BN_CHANLL 33
+      - Canada/@BN_CHANLL 34
+      - Canada/@BN_CHANLL 35
+      - Canada/@BN_CHANLL 36
+      - Canada/@BN_CHANLL 37
+      - Canada/@BN_CHANLL 38
+      - Canada/@BN_CHANLL 39
+      - Canada/@BN_CHANLL 40
+      - Canada/@BN_CHANLL 41
+      - Canada/@BN_CHANLL 42
+      - Canada/@BN_CHANLL 43
+      - Canada/@BN_CHANLL 44
+      - Canada/@BN_CHANLL 45
+      - Canada/@BN_CHANLL 46
+      - Canada/@BN_CHANLL 47
+      - Canada/@BN_CHANLL 48
+      - Canada/@BN_CHANLL 49
+      - Canada/@BN_CHANLL 50
+      - Canada/@BN_CHANLL 51
+      - Canada/@BN_CHANLL 52
+      - Canada/@BN_CHANLL 53
+      - Canada/@BN_CHANLL 54
+      - Canada/@BN_CHANLL 55
+      - Canada/@BN_CHANLL 56
+      - Canada/@BN_CHANLL 57
+      - Canada/@BN_CHANLL 58
+      - Canada/@BN_CHANLL 59
+      - Canada/@BN_CHANLL 60
+      - Canada/@BN_CHANLL 61
+      - Canada/@BN_CHANLL 62
+      - Canada/@BN_CHANLL 63
+      - Canada/@BN_CHANLL 64
+      - Canada/@BN_CHANLL 65
+      - Canada/@BN_CHANLL 66
+      - Canada/@BN_CHANLL 67
+      - Canada/@BN_CHANLL 68
+      - Canada/@BN_CHANLL 69
+      - Canada/@BN_CHANLL 70
+      - Canada/@BN_CHANLL 71
+      - Canada/@BN_CHANLL 72
+      - Canada/@BN_CHANLL 73
+      - Canada/@BN_CHANLL 74
+      - Canada/@BN_CHANLL 75
+      - Canada/@BN_CHANLL 76
+      - Canada/@BN_CHANLL 77
+      - Canada/@BN_CHANLL 78
+      - Canada/@BN_CHANLL 79
+      - Canada/@BN_CHANLL 80
+      - Canada/@BN_CHANLL 81
+      - Canada/@BN_CHANLL 82
+      - Canada/@BN_CHANLL 83
+      - Canada/@BN_CHANLL 84
+      - Canada/@BN_CHANLL 85
+      - Canada/@BN_CHANLL 86
+      - Canada/@BN_CHANLL 87
+      - Canada/@BN_CHANLL 88
+      - Canada/@BN_CHANLL 89
+      - Canada/@BN_CHANLL 90
+      - Canada/@BN_CHANLL 91
+      - Canada/@BN_CHANLL 92
+      - Canada/@BN_CHANLL 93
+      - Canada/@BN_CHANLL 94
+      - Canada/@BN_CHANLL 95
+      - Canada/@BN_CHANLL 96
+      - Canada/@BN_CHANLL 97
+      - Canada/@BN_CHANLL 98
+      - Canada/@BN_CHANLL 99
+      - Canada/@BN_CHANLL 100
+      - Canada/@BN_CHANLL 101
+      - Canada/@BN_CHANLL 102
+      - Canada/@BN_CHANLL 103
+      - Canada/@BN_CHANLL 104
+      - Canada/@BN_CHANLL 105
+      - Canada/@BN_CHANLL 106
+      - Canada/@BN_CHANLL 107
+      - Canada/@BN_CHANLL 108
+      - Canada/@BN_CHANLL 109
+      - Canada/@BN_CHANLL 110
+      - Canada/@BN_CHANLL 111
+      - Canada| @BN_CHANLL
+      - Canada| @BN_CHANLL 2
+      - Canada| @BN_CHANLL 3
+      - Canada| @BN_CHANLL 4
+      - Canada| @BN_CHANLL 5
+      - Canada| @BN_CHANLL 6
+      - Canada| @BN_CHANLL 7
+      - Canada| @BN_CHANLL 8
+      - Canada| @BN_CHANLL 9
+      - Canada| @BN_CHANLL 10
+      - Canada| @BN_CHANLL 11
+      - Canada| @BN_CHANLL 12
+      - Canada| @BN_CHANLL 13
+      - Canada| @BN_CHANLL 14
+      - Canada| @BN_CHANLL 15
+      - Canada| @BN_CHANLL 16
+      - Canada| @BN_CHANLL 17
+      - Canada| @BN_CHANLL 18
+      - Canada| @BN_CHANLL 19
+      - Canada| @BN_CHANLL 20
+      - Canada| @BN_CHANLL 21
+      - Canada| @BN_CHANLL 22
+      - Canada| @BN_CHANLL 23
+      - Canada| @BN_CHANLL 24
+      - Canada| @BN_CHANLL 25
+      - Canada| @BN_CHANLL 26
+      - Canada| @BN_CHANLL 27
+      - Canada| @BN_CHANLL 28
+      - Canada| @BN_CHANLL 29
+      - Canada| @BN_CHANLL 30
+      - Canada| @BN_CHANLL 31
+      - Canada| @BN_CHANLL 32
+      - Canada| @BN_CHANLL 33
+      - Canada| @BN_CHANLL 34
+      - Canada| @BN_CHANLL 35
+      - Canada| @BN_CHANLL 36
+      - Canada| @BN_CHANLL 37
+      - Canada| @BN_CHANLL 38
+      - Canada| @BN_CHANLL 39
+      - Canada| @BN_CHANLL 40
+      - Canada| @BN_CHANLL 41
+      - Canada| @BN_CHANLL 42
+      - Canada| @BN_CHANLL 43
+      - Canada| @BN_CHANLL 44
+      - Canada| @BN_CHANLL 45
+      - Canada| @BN_CHANLL 46
+      - Canada| @BN_CHANLL 47
+      - Canada| @BN_CHANLL 48
+      - Canada| @BN_CHANLL 49
+      - Canada| @BN_CHANLL 50
+      - Canada| @BN_CHANLL 51
+      - Canada| @BN_CHANLL 52
+      - Canada| @BN_CHANLL 53
+      - Canada| @BN_CHANLL 54
+      - Canada| @BN_CHANLL 55
+      - Canada| @BN_CHANLL 56
+      - Canada| @BN_CHANLL 57
+      - Canada| @BN_CHANLL 58
+      - Canada| @BN_CHANLL 59
+      - Canada| @BN_CHANLL 60
+      - Canada| @BN_CHANLL 61
+      - Canada| @BN_CHANLL 62
+      - Canada| @BN_CHANLL 63
+      - Canada| @BN_CHANLL 64
+      - Canada| @BN_CHANLL 65
+      - Canada| @BN_CHANLL 66
+      - Canada| @BN_CHANLL 67
+      - Canada| @BN_CHANLL 68
+      - Canada| @BN_CHANLL 69
+      - Canada| @BN_CHANLL 70
+      - Canada| @BN_CHANLL 71
+      - Canada| @BN_CHANLL 72
+      - Canada| @BN_CHANLL 73
+      - Canada| @BN_CHANLL 74
+      - Canada| @BN_CHANLL 75
+      - Canada| @BN_CHANLL 76
+      - Canada| @BN_CHANLL 77
+      - Canada| @BN_CHANLL 78
+      - Canada| @BN_CHANLL 79
+      - Canada| @BN_CHANLL 80
+      - Canada| @BN_CHANLL 81
+      - Canada| @BN_CHANLL 82
+      - Canada| @BN_CHANLL 83
+      - Canada| @BN_CHANLL 84
+      - Canada| @BN_CHANLL 85
+      - Canada| @BN_CHANLL 86
+      - Canada| @BN_CHANLL 87
+      - Canada| @BN_CHANLL 88
+      - Canada| @BN_CHANLL 89
+      - Canada| @BN_CHANLL 90
+      - Canada| @BN_CHANLL 91
+      - Canada| @BN_CHANLL 92
+      - Canada| @BN_CHANLL 93
+      - Canada| @BN_CHANLL 94
+      - Canada| @BN_CHANLL 95
+      - Canada| @BN_CHANLL 96
+      - Canada| @BN_CHANLL 97
+      - Canada| @BN_CHANLL 98
+      - Canada| @BN_CHANLL 99
+      - Canada| @BN_CHANLL 100
+      - Canada| @BN_CHANLL 101
+      - Canada| @BN_CHANLL 102
+      - Canada| @BN_CHANLL 103
+      - Canada| @BN_CHANLL 104
+      - Canada| @BN_CHANLL 105
+      - Canada| @BN_CHANLL 106
+      - Canada| @BN_CHANLL 107
+      - Canada| @BN_CHANLL 108
+      - Canada/@BN_CHANLL 112
+      - Canada/@BN_CHANLL 113
+      - Canada/@BN_CHANLL 114
+      - Canada/@BN_CHANLL 115
+      - Canada/@BN_CHANLL 116
+      - Canada/@BN_CHANLL 117
+      - Canada/@BN_CHANLL 118
+      - Canada/@BN_CHANLL 119
+      - Canada/@BN_CHANLL 120
+      - Canada/@BN_CHANLL 121
+      - Canada/@BN_CHANLL 122
+      - Canada/@BN_CHANLL 123
+      - Canada/@BN_CHANLL 124
+      - Canada/@BN_CHANLL 125
+      - Canada/@BN_CHANLL 126
+      - Canada/@BN_CHANLL 127
+      - Canada/@BN_CHANLL 128
+      - Canada/@BN_CHANLL 129
+      - Canada/@BN_CHANLL 130
+      - Canada/@BN_CHANLL 131
+      - Canada/@BN_CHANLL 132
+      - Canada/@BN_CHANLL 133
+      - Canada/@BN_CHANLL 134
+      - Canada/@BN_CHANLL 135
+      - Canada/@BN_CHANLL 136
+      - Canada/@BN_CHANLL 137
+      - Canada/@BN_CHANLL 138
+      - Canada/@BN_CHANLL 139
+      - Canada/@BN_CHANLL 140
+      - Canada/@BN_CHANLL 141
+      - Canada/@BN_CHANLL 142
+      - Canada/@BN_CHANLL 143
+      - Canada/@BN_CHANLL 144
+      - Czechia/@BN_CHANLL
+      - Germany/@BN_CHANLL
+      - Germany/@BN_CHANLL 2
+      - Germany/@BN_CHANLL 3
+      - Germany/@BN_CHANLL 4
+      - Germany/@BN_CHANLL 5
+      - Germany| @BN_CHANLL
+      - Germany| @BN_CHANLL 2
+      - France/@BN_CHANLL
+      - France/@BN_CHANLL 2
+      - United Kingdom/@BN_CHANLL
+      - Hong Kong SAR China/@BN_CHANLL
+      - Hong Kong SAR China/@BN_CHANLL 2
+      - Hong Kong SAR China/@BN_CHANLL 3
+      - Hong Kong SAR China/@BN_CHANLL 4
+      - Hong Kong SAR China/@BN_CHANLL 5
+      - Hong Kong SAR China/@BN_CHANLL 6
+      - Hong Kong SAR China/@BN_CHANLL 7
+      - Hong Kong SAR China/@BN_CHANLL 8
+      - Hong Kong SAR China/@BN_CHANLL 9
+      - Hong Kong SAR China/@BN_CHANLL 10
+      - Hong Kong SAR China/@BN_CHANLL 11
+      - Hong Kong SAR China| @BN_CHANLL
+      - Hong Kong SAR China| @BN_CHANLL 2
+      - Hong Kong SAR China| @BN_CHANLL 3
+      - Hong Kong SAR China| @BN_CHANLL 4
+      - Hong Kong SAR China| @BN_CHANLL 5
+      - Hong Kong SAR China| @BN_CHANLL 6
+      - Hong Kong SAR China| @BN_CHANLL 7
+      - Hong Kong SAR China| @BN_CHANLL 8
+      - Hong Kong SAR China| @BN_CHANLL 9
+      - Hong Kong SAR China| @BN_CHANLL 10
+      - Hong Kong SAR China| @BN_CHANLL 11
+      - Hong Kong SAR China| @BN_CHANLL 12
+      - India/@BN_CHANLL
+      - India/@BN_CHANLL 2
+      - India/@BN_CHANLL 3
+      - India/@BN_CHANLL 4
+      - India/@BN_CHANLL 5
+      - India/@BN_CHANLL 6
+      - India/@BN_CHANLL 7
+      - India/@BN_CHANLL 8
+      - India/@BN_CHANLL 9
+      - Italy/@BN_CHANLL
+      - Italy/@BN_CHANLL 2
+      - Italy/@BN_CHANLL 3
+      - Japan/@BN_CHANLL
+      - Japan/@BN_CHANLL 2
+      - Japan/@BN_CHANLL 3
+      - Japan| @BN_CHANLL
+      - Japan| @BN_CHANLL 2
+      - Japan| @BN_CHANLL 3
+      - Japan| @BN_CHANLL 4
+      - North Korea/@BN_CHANLL
+      - North Korea/@BN_CHANLL 2
+      - North Korea/@BN_CHANLL 3
+      - North Korea/@BN_CHANLL 4
+      - North Korea/@BN_CHANLL 5
+      - North Korea/@BN_CHANLL 6
+      - North Korea/@BN_CHANLL 7
+      - North Korea/@BN_CHANLL 8
+      - North Korea/@BN_CHANLL 9
+      - North Korea/@BN_CHANLL 10
+      - North Korea/@BN_CHANLL 11
+      - North Korea/@BN_CHANLL 12
+      - North Korea/@BN_CHANLL 13
+      - North Korea/@BN_CHANLL 14
+      - North Korea/@BN_CHANLL 15
+      - North Korea/@BN_CHANLL 16
+      - North Korea/@BN_CHANLL 17
+      - North Korea/@BN_CHANLL 18
+      - North Korea/@BN_CHANLL 19
+      - North Korea/@BN_CHANLL 20
+      - North Korea/@BN_CHANLL 21
+      - North Korea/@BN_CHANLL 22
+      - North Korea/@BN_CHANLL 23
+      - North Korea/@BN_CHANLL 24
+      - North Korea/@BN_CHANLL 25
+      - North Korea/@BN_CHANLL 26
+      - North Korea/@BN_CHANLL 27
+      - North Korea/@BN_CHANLL 28
+      - North Korea/@BN_CHANLL 29
+      - North Korea/@BN_CHANLL 30
+      - North Korea/@BN_CHANLL 31
+      - North Korea/@BN_CHANLL 32
+      - North Korea/@BN_CHANLL 33
+      - North Korea/@BN_CHANLL 34
+      - North Korea/@BN_CHANLL 35
+      - North Korea/@BN_CHANLL 36
+      - North Korea/@BN_CHANLL 37
+      - North Korea/@BN_CHANLL 38
+      - North Korea/@BN_CHANLL 39
+      - North Korea/@BN_CHANLL 40
+      - North Korea/@BN_CHANLL 41
+      - North Korea/@BN_CHANLL 42
+      - North Korea/@BN_CHANLL 43
+      - North Korea/@BN_CHANLL 44
+      - North Korea/@BN_CHANLL 45
+      - North Korea/@BN_CHANLL 46
+      - North Korea/@BN_CHANLL 47
+      - North Korea/@BN_CHANLL 48
+      - North Korea/@BN_CHANLL 49
+      - North Korea/@BN_CHANLL 50
+      - North Korea/@BN_CHANLL 51
+      - North Korea/@BN_CHANLL 52
+      - North Korea/@BN_CHANLL 53
+      - North Korea/@BN_CHANLL 54
+      - North Korea/@BN_CHANLL 55
+      - South Korea| @BN_CHANLL
+      - South Korea| @BN_CHANLL 2
+      - South Korea| @BN_CHANLL 3
+      - South Korea| @BN_CHANLL 4
+      - South Korea| @BN_CHANLL 5
+      - South Korea| @BN_CHANLL 6
+      - Luxembourg/@BN_CHANLL
+      - Moldova/@BN_CHANLL
+      - Netherlands/@BN_CHANLL
+      - Norway/@BN_CHANLL
+      - Norway/@BN_CHANLL 2
+      - Norway/@BN_CHANLL 3
+      - Norway/@BN_CHANLL 4
+      - Norway/@BN_CHANLL 5
+      - Norway/@BN_CHANLL 6
+      - Norway/@BN_CHANLL 7
+      - Norway/@BN_CHANLL 8
+      - Norway/@BN_CHANLL 9
+      - Norway/@BN_CHANLL 10
+      - Norway/@BN_CHANLL 11
+      - Norway/@BN_CHANLL 12
+      - Norway/@BN_CHANLL 13
+      - Norway/@BN_CHANLL 14
+      - Norway/@BN_CHANLL 15
+      - Norway/@BN_CHANLL 16
+      - Norway/@BN_CHANLL 17
+      - Norway/@BN_CHANLL 18
+      - Norway/@BN_CHANLL 19
+      - Norway/@BN_CHANLL 20
+      - Norway/@BN_CHANLL 21
+      - Norway/@BN_CHANLL 22
+      - Norway/@BN_CHANLL 23
+      - Norway/@BN_CHANLL 24
+      - Norway/@BN_CHANLL 25
+      - Norway/@BN_CHANLL 26
+      - Norway/@BN_CHANLL 27
+      - Norway| @BN_CHANLL
+      - Norway| @BN_CHANLL 2
+      - Norway| @BN_CHANLL 3
+      - Norway| @BN_CHANLL 4
+      - Norway/@BN_CHANLL 28
+      - Norway/@BN_CHANLL 29
+      - Norway/@BN_CHANLL 30
+      - Norway/@BN_CHANLL 31
+      - Norway/@BN_CHANLL 32
+      - Norway/@BN_CHANLL 33
+      - Norway/@BN_CHANLL 34
+      - Norway/@BN_CHANLL 35
+      - Norway/@BN_CHANLL 36
+      - Poland/@BN_CHANLL
+      - Poland/@BN_CHANLL 2
+      - Romania/@BN_CHANLL
+      - Russian Federation/@BN_CHANLL
+      - Singapore/@BN_CHANLL
+      - Singapore/@BN_CHANLL 2
+      - Singapore/@BN_CHANLL 3
+      - Singapore/@BN_CHANLL 4
+      - Singapore/@BN_CHANLL 5
+      - Singapore/@BN_CHANLL 6
+      - Singapore/@BN_CHANLL 7
+      - Singapore/@BN_CHANLL 8
+      - Singapore/@BN_CHANLL 9
+      - United States/@BN_CHANLL
+      - United States/@BN_CHANLL 2
+      - United States/@BN_CHANLL 3
+      - United States/@BN_CHANLL 4
+      - United States/@BN_CHANLL 5
+      - United States/@BN_CHANLL 6
+      - United States/@BN_CHANLL 7
+      - United States/@BN_CHANLL 8
+      - United States/@BN_CHANLL 9
+      - United States/@BN_CHANLL 10
+      - United States/@BN_CHANLL 11
+      - United States/@BN_CHANLL 12
+      - United States/@BN_CHANLL 13
+      - United States/@BN_CHANLL 14
+      - United States/@BN_CHANLL 15
+      - United States/@BN_CHANLL 16
+      - United States/@BN_CHANLL 17
+      - United States/@BN_CHANLL 18
+      - United States/@BN_CHANLL 19
+      - United States/@BN_CHANLL 20
+      - United States/@BN_CHANLL 21
+      - United States/@BN_CHANLL 22
+      - United States/@BN_CHANLL 23
+      - United States/@BN_CHANLL 24
+      - United States/@BN_CHANLL 25
+      - United States/@BN_CHANLL 26
+      - United States/@BN_CHANLL 27
+      - United States/@BN_CHANLL 28
+      - United States/@BN_CHANLL 29
+      - United States/@BN_CHANLL 30
+      - United States/@BN_CHANLL 31
+      - United States/@BN_CHANLL 32
+      - United States/@BN_CHANLL 33
+      - United States/@BN_CHANLL 34
+      - United States/@BN_CHANLL 35
+      - United States/@BN_CHANLL 36
+      - United States/@BN_CHANLL 37
+      - United States/@BN_CHANLL 38
+      - United States/@BN_CHANLL 39
+      - United States/@BN_CHANLL 40
+      - United States/@BN_CHANLL 41
+      - United States/@BN_CHANLL 42
+      - United States/@BN_CHANLL 43
+      - United States/@BN_CHANLL 44
+      - United States/@BN_CHANLL 45
+      - United States/@BN_CHANLL 46
+      - United States/@BN_CHANLL 47
+      - United States/@BN_CHANLL 48
+      - United States/@BN_CHANLL 49
+      - United States/@BN_CHANLL 50
+      - United States/@BN_CHANLL 51
+      - United States/@BN_CHANLL 52
+      - United States/@BN_CHANLL 53
+      - United States/@BN_CHANLL 54
+      - United States/@BN_CHANLL 55
+      - United States/@BN_CHANLL 56
+      - United States/@BN_CHANLL 57
+      - United States/@BN_CHANLL 58
+      - United States/@BN_CHANLL 59
+      - United States/@BN_CHANLL 60
+      - United States/@BN_CHANLL 61
+      - United States/@BN_CHANLL 62
+      - United States/@BN_CHANLL 63
+      - United States/@BN_CHANLL 64
+      - United States/@BN_CHANLL 65
+      - United States/@BN_CHANLL 66
+      - United States/@BN_CHANLL 67
+      - United States/@BN_CHANLL 68
+      - United States/@BN_CHANLL 69
+      - United States/@BN_CHANLL 70
+      - United States/@BN_CHANLL 71
+      - United States/@BN_CHANLL 72
+      - United States/@BN_CHANLL 73
+      - United States/@BN_CHANLL 74
+      - United States/@BN_CHANLL 75
+      - United States/@BN_CHANLL 76
+      - United States/@BN_CHANLL 77
+      - United States/@BN_CHANLL 78
+      - United States/@BN_CHANLL 79
+      - United States/@BN_CHANLL 80
+      - United States/@BN_CHANLL 81
+      - United States| @BN_CHANLL
+      - United States| @BN_CHANLL 2
+      - United States| @BN_CHANLL 3
+      - United States| @BN_CHANLL 4
+      - United States| @BN_CHANLL 5
+      - United States| @BN_CHANLL 6
+      - United States| @BN_CHANLL 7
+      - United States| @BN_CHANLL 8
+      - United States| @BN_CHANLL 9
+      - United States| @BN_CHANLL 10
+      - United States| @BN_CHANLL 11
+      - United States| @BN_CHANLL 12
+      - United States| @BN_CHANLL 13
+      - United States| @BN_CHANLL 14
+      - United States| @BN_CHANLL 15
+      - United States| @BN_CHANLL 16
+      - United States| @BN_CHANLL 17
+      - United States| @BN_CHANLL 18
+      - United States| @BN_CHANLL 19
+      - United States| @BN_CHANLL 20
+      - United States| @BN_CHANLL 21
+      - United States| @BN_CHANLL 22
+      - United States| @BN_CHANLL 23
+      - United States| @BN_CHANLL 24
+      - United States| @BN_CHANLL 25
+      - United States| @BN_CHANLL 26
+      - United States| @BN_CHANLL 27
+      - United States| @BN_CHANLL 28
+      - United States| @BN_CHANLL 29
+      - United States| @BN_CHANLL 30
+      - United States| @BN_CHANLL 31
+      - United States| @BN_CHANLL 32
+      - United States| @BN_CHANLL 33
+      - United States| @BN_CHANLL 34
+      - United States| @BN_CHANLL 35
+      - United States| @BN_CHANLL 36
+      - United States| @BN_CHANLL 37
+      - United States| @BN_CHANLL 38
+      - United States| @BN_CHANLL 39
+      - United States| @BN_CHANLL 40
+      - United States| @BN_CHANLL 41
+      - United States| @BN_CHANLL 42
+      - United States| @BN_CHANLL 43
+      - United States| @BN_CHANLL 44
+      - United States| @BN_CHANLL 45
+      - United States| @BN_CHANLL 46
+      - United States| @BN_CHANLL 47
+      - United States| @BN_CHANLL 48
+      - United States| @BN_CHANLL 49
+      - United States| @BN_CHANLL 50
+      - United States| @BN_CHANLL 51
+      - United States| @BN_CHANLL 52
+      - United States| @BN_CHANLL 53
+      - United States| @BN_CHANLL 54
+      - United States| @BN_CHANLL 55
+      - United States| @BN_CHANLL 56
+      - United States| @BN_CHANLL 57
+      - United States| @BN_CHANLL 58
+      - United States| @BN_CHANLL 59
+      - United States| @BN_CHANLL 60
+      - United States| @BN_CHANLL 61
+      - United States| @BN_CHANLL 62
+      - United States| @BN_CHANLL 63
+      - United States| @BN_CHANLL 64
+      - United States| @BN_CHANLL 65
+      - United States| @BN_CHANLL 66
+      - United States| @BN_CHANLL 67
+      - United States| @BN_CHANLL 68
+      - United States| @BN_CHANLL 69
+      - United States| @BN_CHANLL 70
+      - United States| @BN_CHANLL 71
+      - United States| @BN_CHANLL 72
+      - United States| @BN_CHANLL 73
+      - United States| @BN_CHANLL 74
+      - United States| @BN_CHANLL 75
+      - United States| @BN_CHANLL 76
+      - United States| @BN_CHANLL 77
+      - United States| @BN_CHANLL 78
+      - United States| @BN_CHANLL 79
+      - United States| @BN_CHANLL 80
+      - United States| @BN_CHANLL 81
+      - United States| @BN_CHANLL 82
+      - United States| @BN_CHANLL 83
+      - United States| @BN_CHANLL 84
+      - United States| @BN_CHANLL 85
+      - United States| @BN_CHANLL 86
+      - United States| @BN_CHANLL 87
+      - United States| @BN_CHANLL 88
+      - United States| @BN_CHANLL 89
+      - United States| @BN_CHANLL 90
+      - United States| @BN_CHANLL 91
+      - United States| @BN_CHANLL 92
+      - United States| @BN_CHANLL 93
+      - United States| @BN_CHANLL 94
+      - United States| @BN_CHANLL 95
+      - United States| @BN_CHANLL 96
+      - United States| @BN_CHANLL 97
+      - United States| @BN_CHANLL 98
+      - United States| @BN_CHANLL 99
+      - United States| @BN_CHANLL 100
+      - United States| @BN_CHANLL 101
+      - United States| @BN_CHANLL 102
+      - United States| @BN_CHANLL 103
+      - United States| @BN_CHANLL 104
+      - United States| @BN_CHANLL 105
+      - United States| @BN_CHANLL 106
+      - United States| @BN_CHANLL 107
+      - United States| @BN_CHANLL 108
+      - United States| @BN_CHANLL 109
+      - United States| @BN_CHANLL 110
+      - United States| @BN_CHANLL 111
+      - United States| @BN_CHANLL 112
+      - United States| @BN_CHANLL 113
+      - United States| @BN_CHANLL 114
+      - United States| @BN_CHANLL 115
+      - United States| @BN_CHANLL 116
+      - United States| @BN_CHANLL 117
+      - United States| @BN_CHANLL 118
+      - United States| @BN_CHANLL 119
+      - United States| @BN_CHANLL 120
+      - United States| @BN_CHANLL 121
+      - United States| @BN_CHANLL 122
+      - UnitedStates/@BN_CHANLL
+      - UnitedStates/@BN_CHANLL 2
+      - UnitedStates/@BN_CHANLL 3
+      - UnitedStates/@BN_CHANLL 4
+      - UnitedStates/@BN_CHANLL 5
+      - UnitedStates/@BN_CHANLL 6
+      - UnitedStates/@BN_CHANLL 7
+      - UnitedStates/@BN_CHANLL 8
+      - UnitedStates/@BN_CHANLL 9
+      - UnitedStates/@BN_CHANLL 10
+      - UnitedStates/@BN_CHANLL 11
+      - UnitedStates/@BN_CHANLL 12
+      - UnitedStates/@BN_CHANLL 13
+      - UnitedStates/@BN_CHANLL 14
+      - UnitedStates/@BN_CHANLL 15
+      - UnitedStates/@BN_CHANLL 16
+      - UnitedStates/@BN_CHANLL 17
+      - UnitedStates/@BN_CHANLL 18
+      - UnitedStates/@BN_CHANLL 19
+      - UnitedStates/@BN_CHANLL 20
+      - UnitedStates/@BN_CHANLL 21
+      - UnitedStates/@BN_CHANLL 22
+      - UnitedStates/@BN_CHANLL 23
+      - UnitedStates/@BN_CHANLL 24
+      - UnitedStates/@BN_CHANLL 25
+rules:
+ - MATCH,♻️ BESTPING(@BN_CHANLL),🔰 SELECT(@BN_CHANLL)
