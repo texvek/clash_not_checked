@@ -8,6 +8,7 @@ $# cd /etc/clash/
 
 $# wget https://raw.githubusercontent.com/texvek/clash_not_checked/main/Clash.yml
 wget https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/HamrahAkhar.yaml
+wget https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/IRANCELL
 
 
 $# cp Clash.yml config.yaml
