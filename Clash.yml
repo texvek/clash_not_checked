@@ -5,6 +5,26 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {"name":"DEلوناپ⋑1","type":"vmess","server":"de-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"de-ls03.nb1.fr"}}}
+  - {"name":"GBلوناپ⋑2","type":"vmess","server":"gb-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"gb-ls03.nb1.fr"}}}
+  - {"name":"USلوناپ⋑5","type":"ss","server":"167.88.61.236","port":809,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"VNلوناپ⋑6","type":"ss","server":"103.163.218.2","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"JPلوناپ⋑7","type":"trojan","server":"150.230.217.213","port":443,"udp":true,"password":"c09eb137-bf68-4658-84e0-102d94b74168","sni":"$filimo.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"JPلوناپ⋑8","type":"trojan","server":"150.230.96.103","port":443,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677","sni":"$timecity.ir","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"USلوناپ⋑9","type":"trojan","server":"129.146.190.42","port":443,"udp":true,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","sni":"$irpopup.ir","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"KRلوناپ⋑10","type":"trojan","server":"138.2.113.84","port":443,"udp":true,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","sni":"$akharinkhabar.ir","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"JPلوناپ⋑11","type":"trojan","server":"168.138.44.176","port":443,"udp":true,"password":"8d2d5953-d649-4034-94f2-72f2df2623da","sni":"$marzfun.ir","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑12","type":"trojan","server":"li1us-fddfv2bgdha.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$li1us-fddfv2bgdha.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑13","type":"trojan","server":"lin2ivdd2vbghwk.559xp5.cn","port":443,"udp":true,"password":"4a49e911-4d79-4f9e-9952-1bcfecc7e7fe","sni":"$lin2ivdd2vbghwk.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑14","type":"trojan","server":"lisef2vvbbjfkr.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$lisef2vvbbjfkr.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑15","type":"trojan","server":"gdnjqwghsdfmawsbr.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$gdnjqwghsdfmawsbr.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑16","type":"trojan","server":"lin1gbd-fvb2cndjisd.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$lin1gbd-fvb2cndjisd.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑17","type":"trojan","server":"lin1gb2bvndjisd.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$lin1gb2bvndjisd.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑18","type":"trojan","server":"lixiyjp12gvabkmno.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$lixiyjp12gvabkmno.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑19","type":"trojan","server":"li1faiubsvdnasjp2.559xp5.cn","port":443,"udp":true,"password":"4a49e911-4d79-4f9e-9952-1bcfecc7e7fe","sni":"$li1faiubsvdnasjp2.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑20","type":"trojan","server":"bacmlwrkoph.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$bacmlwrkoph.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑21","type":"trojan","server":"iohk2dhbuvdad.559xp5.cn","port":443,"udp":true,"password":"b163c841-5acb-4bd5-838a-3c745685e3b2","sni":"$iohk2dhbuvdad.559xp5.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HKلوناپ⋑22","type":"trojan","server":"my.mjt001.com","port":443,"udp":true,"password":"d18f869b-4e42-47e6-ae3d-2f09c33daec1","sni":"$my.mjt001.com","skip-cert-verify":true,"network":"tcp"}
   - {name: 公益机场:https://bit.ly/3BPeo5G, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: "@SSRSUB-V23-付费推荐:suo.yt/ssrsub", server: 125.94.37.107, port: 13413, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V24-付费推荐:suo.yt/ssrsub", server: zzcm08.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}, udp: true}
@@ -26,6 +46,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
@@ -45,6 +85,26 @@ proxy-groups:
     interval: 300
     proxies:
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
@@ -65,6 +125,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
@@ -89,6 +169,26 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
@@ -107,6 +207,26 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
@@ -128,6 +248,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
@@ -157,6 +297,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 公益机场:https://bit.ly/3BPeo5G
+      - DEلوناپ⋑1
+      - GBلوناپ⋑2
+      - USلوناپ⋑5
+      - VNلوناپ⋑6
+      - JPلوناپ⋑7
+      - JPلوناپ⋑8
+      - USلوناپ⋑9
+      - KRلوناپ⋑10
+      - JPلوناپ⋑11
+      - HKلوناپ⋑12
+      - HKلوناپ⋑13
+      - HKلوناپ⋑14
+      - HKلوناپ⋑15
+      - HKلوناپ⋑16
+      - HKلوناپ⋑17
+      - HKلوناپ⋑18
+      - HKلوناپ⋑19
+      - HKلوناپ⋑20
+      - HKلوناپ⋑21
+      - HKلوناپ⋑22
       - "@SSRSUB-V23-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
